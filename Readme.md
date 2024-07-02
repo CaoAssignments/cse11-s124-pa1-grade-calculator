@@ -1,4 +1,4 @@
-# CSE 11 Summer Session 2024 PA1 - Grade Calculator
+# CSE 11 Summer Session 1 2024 PA1 - Grade Calculator
 **Due date: Sunday, July 7th @ 11:59PM PDT**
 
 ## Goal:
@@ -15,7 +15,7 @@ There are 3 parts in this assignment. All are required before the deadline.
 We take Academic Integrity (AI) very seriously at UCSD. Before beginning the assignment please fill out the [AI form](https://forms.gle/nUCQvvXJPiM9AcBv9). **You must fill this out in order to recieve points for any assignments.**
 
 ## Part 2: Technology Access Survey [1 point]
-Please fill out this [Technology Access Survey](https://canvas.ucsd.edu/courses/47481/quizzes/144571) on Canvas to help us understand the background and goals of the students in this course and meet the new financial aid requirement.
+Please fill out this [Technology Access Survey](https://canvas.ucsd.edu/courses/57126/quizzes/177462) on Canvas to help us understand the background and goals of the students in this course and meet the new financial aid requirement.
 
 
 ## Part 3: Grade Calculator [98 points]
@@ -26,7 +26,7 @@ Write a program called `GradeCalculator` that
 - outputs the overall score and its corresponding letter grade
 
 ### Setup
-Please follow [our tutorial](https://docs.google.com/document/d/1ez7bAXQlkXZTFZ1LAe7m-hiiWEuvdHb47kO1fJgVP7Y/edit) to have Java 17 installed on your machine in order to complete this assignment. Additionally, familiarize yourself with some bash commands (optional):
+Please follow [our tutorial](https://canvaskaf.ucsd.edu/media/t/1_yvnfa9cl/346132092) to have Java 17 installed on your machine in order to complete this assignment. Additionally, familiarize yourself with some bash commands (optional):
 - Essential Commands: https://www.hongkiat.com/blog/web-designers-essential-command-lines/
 - Unix reference sheet: https://files.fosswire.com/2007/08/fwunixref.pdf
 
@@ -41,11 +41,11 @@ There are a few restrictions on the implementation.
 - You should not use `System.exit`. Doing so will cause Autograder to throw exceptions and you'll get "EXCEPT" for all of your test cases.
 - You should not print any prompt (e.g. “please enter your score”).
 
-To get started on this PA, follow Section 3 in the [instructions](https://docs.google.com/document/d/1ez7bAXQlkXZTFZ1LAe7m-hiiWEuvdHb47kO1fJgVP7Y/edit) again but create a folder for "PA1" at the location of your choice and open that folder in Visual Studio Code (VS Code). Then create a class named `GradeCalculator` with a `main` method and save it as `GradeCalculator.java`.
+To get started on this PA, follow Section 3 in the [instructions](https://canvaskaf.ucsd.edu/media/t/1_yvnfa9cl/346132092) again but create a folder for "PA1" at the location of your choice and open that folder in Visual Studio Code (VS Code). Then create a class named `GradeCalculator` with a `main` method and save it as `GradeCalculator.java`.
 
 #### Input
 
-The program reads user inputs from `System.in` using a [Scanner](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html) (*remember to import it*). When an user runs `java GradeCalculator`, the input should be taken in via the keyboard and should contain exactly 2 lines detailing the number of programming assignments $n$. You can safely assume that all our inputs will follow this format.
+The program reads user inputs from `System.in` using a [Scanner](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html) (*remember to import it*). When a user runs `java GradeCalculator`, the input should be typed through the terminal and should contain exactly 2 lines detailing the number of programming assignments $n$. You can safely assume that all our inputs will follow this format.
 
 The first line contains $n + 1$ space-separated integers: $n \hspace{1mm} ␣ \hspace{1mm} pa_1 \hspace{1mm} ␣ \hspace{1mm}pa_2\hspace{1mm} ␣ \hspace{1mm}pa_3 \hspace{1mm} ...  \hspace{1mm} pa_n$, where 
 - $n$ is an integer representing the number of programming assignments
@@ -160,7 +160,7 @@ Submit all of the following files to Gradescope by **Sunday, July 7 @ 11:59PM PD
 
 You can submit as many times as you want on Gradescope, and you will see the results right after each submission. **Only for this PA**, you are able to see all the test cases and results when you submit your assignment to Gradescope. It is your responsibility to test your program comprehensively. 
 
-**Important:** Even if your code does not pass all the tests, you will still be able to submit your homework to receive partial points for the tests that you passed. **Make sure your code compiles on Autograder in order to receive partial credit. The name of the file needs to be `GradeCalculator.java`, otherwise no points.** 
+**Important:** Even if your code does not pass all the tests, you will still be able to submit your homework to receive partial points for the tests that you passed. **Make sure your code compiles on Autograder in order to receive partial credit. The name of the file needs to be `GradeCalculator.java`, otherwise you will receive no points.** 
 
 
 ### How your assignment will be evaluated [100 points]
