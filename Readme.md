@@ -26,7 +26,7 @@ Write a program called `GradeCalculator` that
 - outputs the overall score and its corresponding letter grade
 
 ### Setup
-Please follow [our tutorial](https://canvaskaf.ucsd.edu/media/t/1_yvnfa9cl/346132092) to have Java 17 installed on your machine in order to complete this assignment. Additionally, familiarize yourself with some bash commands (optional):
+Please follow our tutorial on canvas (week 1 materials) to have Java 17 installed on your machine in order to complete this assignment. Additionally, familiarize yourself with some bash commands (optional):
 - Essential Commands: https://www.hongkiat.com/blog/web-designers-essential-command-lines/
 - Unix reference sheet: https://files.fosswire.com/2007/08/fwunixref.pdf
 
@@ -41,7 +41,7 @@ There are a few restrictions on the implementation.
 - You should not use `System.exit`. Doing so will cause Autograder to throw exceptions and you'll get "EXCEPT" for all of your test cases.
 - You should not print any prompt (e.g. “please enter your score”).
 
-To get started on this PA, follow Section 3 in the [instructions](https://canvaskaf.ucsd.edu/media/t/1_yvnfa9cl/346132092) again but create a folder for "PA1" at the location of your choice and open that folder in Visual Studio Code (VS Code). Then create a class named `GradeCalculator` with a `main` method and save it as `GradeCalculator.java`.
+To get started on this PA, Create a folder for "PA1" at the location of your choice and open that folder in Visual Studio Code (VS Code). Then create a class named `GradeCalculator` with a `main` method and save it as `GradeCalculator.java`.
 
 #### Input
 
