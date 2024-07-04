@@ -135,7 +135,7 @@ Write the output to the standard output, which prints the overall score in the f
     ```
     invalid input
     ```
-    *Note: As long as there is an invalid programming assignment score, we stop scanning exam scores. In this case, since the first PA score is above 100, print out the `invalid input` directly.*
+    *Note: As soon as an invalid score is encountered, the program should skip any remaining input sanitizations and calculations. In this case, since the first PA score is above 100, the progam prints out `invalid input` directly without checking the remaining scores or calculating the average, overall score, or letter grade.*
 
 #### Example 4
 - Input
